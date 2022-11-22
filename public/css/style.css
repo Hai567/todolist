@@ -1,0 +1,120 @@
+body{
+    color: gray;
+    background: #C7BCA1;
+    box-sizing: border-box;
+}
+
+
+h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#box{
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-clip: content-box;
+}
+
+.box{
+    padding-top: 3%;
+    padding-left: 0;
+    padding-right: 10%;
+    background-color: white;
+}
+
+.innerBox{
+    border-radius: 7px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid rgba(0, 34, 255, 0.16);
+    border-width: 11px;
+}
+
+hr{
+    margin: 0;
+}
+
+.form-box{
+    width: 100%;
+    background-color: white;
+}
+
+button{
+    display: inline-block;
+}
+
+button.add{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+input#nextTodo{
+    width: calc((100%) - 55px);
+    display: inline-block;
+    height: 50px;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+input#check{
+    display: inline-block;
+    background-color: white;
+}
+
+p{
+    padding-left: 2%;
+    display: inline-block;
+    margin-bottom: 1.5%;
+    margin-top: 2%;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+li:last-child hr{
+    display: none !important; 
+}
+
+
+
+input[type = checkbox]{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+}
+
+input[type = checkbox]:checked + p{
+    text-decoration: line-through;
+}
+
+.checkbox{
+    display: inline-block;
+}
+
+.item{
+    display: inline-block;
+    width: 90%;
+}
+
+footer{
+    line-height: 20px;
+}
+
+.end{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
